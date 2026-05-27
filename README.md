@@ -47,7 +47,7 @@ New to the topic? Pick the on-ramp that matches your background. Both converge o
 ## Textbooks
 
 - Parr, Pezzulo, and Friston (2022). *Active Inference: The Free Energy Principle in Mind, Brain, and Behavior*. The standard, comprehensive textbook; open access. [MIT Press](https://direct.mit.edu/books/oa-monograph/5299/Active-InferenceThe-Free-Energy-Principle-in-Mind)
-- Namjoshi (2024). *Fundamentals of Active Inference: Principles, Algorithms, and Applications of the Free Energy Principle for Engineers*. Engineering-focused, conversational, light on proofs. [MIT Press](https://mitpress.mit.edu/9780262050951/fundamentals-of-active-inference/)
+- Namjoshi (2026). *Fundamentals of Active Inference: Principles, Algorithms, and Applications of the Free Energy Principle for Engineers*. The newest textbook; engineering-focused, conversational, and light on proofs. [MIT Press](https://mitpressbookstore.mit.edu/book/9780262050951)
 
 ## Tutorials and Reviews
 
@@ -135,7 +135,8 @@ Markov blankets, self-organization, the Bayesian brain, and the conceptual debat
 
 ## Courses, Lectures, and Videos
 
-- [Active Inference Institute: Courses](https://www.activeinference.institute/courses). Structured courses and recurring textbook reading groups built around the Parr, Pezzulo, and Friston textbook.
+- [Active Inference Institute: Courses](https://www.activeinference.institute/courses). Structured courses on active inference and the free energy principle.
+- [Active Inference Institute: Textbook Group](https://www.activeinference.institute/textbook-group). Participatory reading-group cohorts that work through the core textbooks together.
 
 ## Software and Libraries
 
