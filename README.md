@@ -127,12 +127,15 @@ Markov blankets, self-organization, the Bayesian brain, and the conceptual debat
 - Hohwy (2016). *The self-evidencing brain*. Argues that prediction-error minimization makes the brain self-evidencing. [Wiley](https://onlinelibrary.wiley.com/doi/10.1111/nous.12062)
 - Kirchhoff, Parr, Palacios, Friston, and Kiverstein (2018). *The Markov blankets of life: autonomy, active inference and the free energy principle*. Uses nested Markov blankets to define biological autonomy across scales. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5805980/)
 - Ramstead, Badcock, and Friston (2018). *Answering Schrödinger's question: a free-energy formulation*. Integrates the FEP with Tinbergen's four questions into "variational neuroethology." [ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1571064517301409)
+- Constant, Ramstead, Veissière, Campbell, and Friston (2018). *A variational approach to niche construction*. Formalizes niche construction (organisms reshaping their own environment) as free-energy minimization, extending the FEP toward evolution and culture. [Royal Society](https://royalsocietypublishing.org/doi/10.1098/rsif.2017.0685)
+- Constant, Ramstead, Veissière, and Friston (2019). *Regimes of expectations: an active inference model of social conformity and human decision making*. Models social conformity through "deontic value," showing how shared expectations shape decisions. [Frontiers](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.00679/full)
+- Constant, Clark, and Friston (2021). *Representation wars: enacting an armistice through active inference*. Uses active inference to broker a truce between representationalist and enactivist accounts of cognition. [Frontiers](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.598733/full)
+- Constant, Clark, Kirchhoff, and Friston (2022). *Extended active inference: constructing predictive cognition beyond skulls*. Extends active inference beyond the individual, casting cognitive niche construction as optimization of the agent's generative model. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC9292365/)
 - Bruineberg, Dołęga, Dewhurst, and Baltieri (2022). *The Emperor's New Markov Blankets*. Critically distinguishes the inferential use of Markov blankets from their contested metaphysical use as agent-world boundaries. [Cambridge](https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/abs/emperors-new-markov-blankets/715C589A73DDF861DCF8997271DE0B8C)
 
 ## Courses, Lectures, and Videos
 
 - [Active Inference Institute: Courses](https://www.activeinference.institute/courses). Structured courses and recurring textbook reading groups built around the Parr, Pezzulo, and Friston textbook.
-- [Learn Active Inference](https://www.learnactiveinference.org/). An interactive learning resource and tutor.
 
 ## Software and Libraries
 
@@ -157,7 +160,7 @@ Markov blankets, self-organization, the Bayesian brain, and the conceptual debat
 
 **People** (a non-exhaustive starting point)
 
-Karl Friston, Thomas Parr, Giovanni Pezzulo, Maxwell Ramstead, Lancelot Da Costa, Noor Sajid, Conor Heins, Alexander Tschantz, Christopher L. Buckley, Ryan Smith, Pablo Lanillos, Beren Millidge.
+Karl Friston, Thomas Parr, Giovanni Pezzulo, Maxwell Ramstead, Axel Constant, Lancelot Da Costa, Noor Sajid, Conor Heins, Alexander Tschantz, Christopher L. Buckley, Ryan Smith, Pablo Lanillos, Beren Millidge.
 
 ## Useful Resources and Related Lists
 
