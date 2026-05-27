@@ -63,6 +63,7 @@ The historical spine, from Friston's early work to the most general formulation.
 - Friston (2005). *A theory of cortical responses*. The predictive-coding roots of the framework. [Royal Society](https://royalsocietypublishing.org/doi/10.1098/rstb.2005.1622)
 - Friston, Kilner, and Harrison (2006). *A free energy principle for the brain*. Often cited as the earliest statement of the FEP. [PDF](https://www.fil.ion.ucl.ac.uk/~karl/A%20free%20energy%20principle%20for%20the%20brain.pdf)
 - Friston (2009). *The free-energy principle: a rough guide to the brain?*. Accessible high-level framing. [PDF](https://www.fil.ion.ucl.ac.uk/~karl/The%20free-energy%20principle%20-%20a%20rough%20guide%20to%20the%20brain.pdf)
+- Friston, Daunizeau, and Kiebel (2009). *Reinforcement learning or active inference?*. The original argument that free-energy minimization can substitute for reward-based reinforcement learning. [PLOS](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0006421)
 - Friston (2010). *The free-energy principle: a unified brain theory?*. The widely cited Nature Reviews Neuroscience synthesis. [Nature](https://www.nature.com/articles/nrn2787)
 - Friston, FitzGerald, Rigoli, Schwartenbeck, and Pezzulo (2017). *Active inference: a process theory*. The bridge from the abstract principle to a concrete agent; open access. [MIT Press](https://direct.mit.edu/neco/article/29/1/1/8207/Active-Inference-A-Process-Theory)
 - Friston et al. (2019). *A free energy principle for a particular physics*. The most general, and most demanding, statement. [arXiv](https://arxiv.org/abs/1906.10184)
@@ -81,8 +82,11 @@ See also the dedicated [Predictive_Coding_Papers](https://github.com/BerenMillid
 
 POMDP-style agents, planning as inference, and expected free energy.
 
+- Friston, Rigoli, Ognibene, Mathys, FitzGerald, and Pezzulo (2015). *Active inference and epistemic value*. Decomposes expected free energy into extrinsic (reward) and epistemic (information-gain) value, formalizing exploration. [PubMed](https://pubmed.ncbi.nlm.nih.gov/25689102/)
+- Parr and Friston (2019). *Generalised free energy and active inference*. Generalizes variational free energy to incorporate beliefs about future outcomes. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC6848054/)
 - Da Costa, Parr, Sajid, Veselic, Neacsu, and Friston (2020). *Active inference on discrete state-spaces: a synthesis*. The go-to mathematical reference for discrete agents. [arXiv](https://arxiv.org/abs/2001.07203)
 - Smith, Friston, and Whyte (2022). *A step-by-step tutorial on active inference and its application to empirical data*. The hands-on companion for building and fitting discrete models. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8956124/)
+- Da Costa, Sajid, Parr, Friston, and Smith (2023). *Reward maximization through discrete active inference*. Clarifies exactly when active inference agents act optimally for reward, connecting the framework to reinforcement learning. [arXiv](https://arxiv.org/abs/2009.08111)
 
 ## Active Inference: Continuous Time, Control, and Robotics
 
@@ -104,16 +108,21 @@ Scaling active inference with deep generative models, and its relationship to de
 - Tschantz, Baltieri, Seth, and Buckley (2020). *Reinforcement learning through active inference*. Bridges active inference and deep RL. [arXiv](https://arxiv.org/abs/2002.12636)
 - Fountas, Sajid, Mediano, and Friston (2020). *Deep active inference agents using Monte-Carlo methods*. Scales planning with Monte-Carlo tree search and deep networks. [arXiv](https://arxiv.org/abs/2006.04176)
 - van der Himst and Lanillos (2020). *Deep active inference for partially observable MDPs*. Learns policies directly from high-dimensional observations. [arXiv](https://arxiv.org/abs/2009.03622)
+- Mazzaglia, Verbelen, Çatal, and Dhoedt (2022). *The free energy principle for perception and action: a deep learning perspective*. The go-to review of how to build deep active inference agents. [arXiv](https://arxiv.org/abs/2207.06415)
 
 ## Neuroscience and Computational Psychiatry
 
 Modeling brain function, behavior, and psychiatric conditions.
 
+- Montague, Dolan, Friston, and Dayan (2012). *Computational psychiatry*. The agenda-setting paper for understanding mental dysfunction as aberrant computation. [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3556822/)
 - Adams, Stephan, Brown, Frith, and Friston (2013). *The computational anatomy of psychosis*. Recasts psychotic symptoms as aberrant precision-weighting in hierarchical Bayesian inference. [Frontiers](https://www.frontiersin.org/journals/psychiatry/articles/10.3389/fpsyt.2013.00047/full)
+- Seth (2013). *Interoceptive inference, emotion, and the embodied self*. The foundational account of emotion as active inference over bodily (interoceptive) signals. [PDF](https://www.fil.ion.ucl.ac.uk/~karl/Interoceptive%20inference%20emotion%20and%20the%20embodied%20self..pdf)
 - Friston, Schwartenbeck, FitzGerald, Moutoussis, Behrens, and Dolan (2014). *The anatomy of choice: dopamine and decision-making*. Derives utility, exploration, and choice from free-energy minimization and links precision updates to dopamine. [Royal Society](https://royalsocietypublishing.org/doi/10.1098/rstb.2013.0481)
 - Schwartenbeck, FitzGerald, Mathys, Dolan, and Friston (2015). *The dopaminergic midbrain encodes the expected certainty about desired outcomes*. fMRI evidence that midbrain dopamine tracks the precision of beliefs about policies. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC4585497/)
+- Barrett and Simmons (2015). *Interoceptive predictions in the brain*. Proposes the Embodied Predictive Interoception Coding (EPIC) model of how the brain anticipates bodily states. [Nature](https://www.nature.com/articles/nrn3950)
 - Seth and Friston (2016). *Active interoceptive inference and the emotional brain*. Frames emotion and selfhood as predictive regulation of bodily states. [Royal Society](https://royalsocietypublishing.org/doi/10.1098/rstb.2016.0007)
 - Parr and Friston (2017). *Working memory, attention, and salience in active inference*. Distinguishes attention (precision over evidence) from salience (epistemic value of actions). [Scientific Reports](https://www.nature.com/articles/s41598-017-15249-0)
+- Pezzulo, Rigoli, and Friston (2018). *Hierarchical active inference: a theory of motivated control*. Explains how control and motivation factorize and integrate across cortical hierarchies. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC5870049/)
 - Smith, Friston, and Whyte (2022). *A step-by-step tutorial on active inference and its application to empirical data*. The practical guide to fitting active-inference models to behavioral data. [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC8956124/)
 
 ## Philosophy and Foundations
@@ -137,6 +146,8 @@ Markov blankets, self-organization, the Bayesian brain, and the conceptual debat
 
 - [Active Inference Institute: Courses](https://www.activeinference.institute/courses). Structured courses on active inference and the free energy principle.
 - [Active Inference Institute: Textbook Group](https://www.activeinference.institute/textbook-group). Participatory reading-group cohorts that work through the core textbooks together.
+- [Active Inference Institute (YouTube)](https://www.youtube.com/channel/UCbPq2w41ZaJSWtpCq4BE6Dg). Hundreds of recorded lectures, livestreams, and model walkthroughs.
+- [Machine Learning Street Talk: Karl Friston](https://www.youtube.com/watch?v=xKQ-F2-o8uM). Long-form, accessible video interviews with Friston on the free energy principle (see also the later episode #106).
 
 ## Software and Libraries
 
@@ -170,7 +181,8 @@ Other curated lists and hubs, acknowledged here as both sources and complements 
 - [BerenMillidge/FEP_Active_Inference_Papers](https://github.com/BerenMillidge/FEP_Active_Inference_Papers). The most comprehensive thematic paper list for FEP and active inference (roughly 100+ annotated papers). The research-grade companion to this more beginner-friendly list.
 - [BerenMillidge/Predictive_Coding_Papers](https://github.com/BerenMillidge/Predictive_Coding_Papers). A companion list focused on predictive coding.
 - [github.com/topics/active-inference](https://github.com/topics/active-inference). All GitHub repositories tagged `active-inference`.
-- [Active Inference Institute on GitHub](https://github.com/ActiveInferenceInstitute). Community code, the Active Inference Journal, and related projects.
+- [Active Inference Institute on GitHub](https://github.com/ActiveInferenceInstitute). Community code and related projects.
+- [Active Inference Journal](https://github.com/ActiveInferenceInstitute/ActiveInferenceJournal). The institute's open, community-run journal.
 - [activeinference.github.io](https://activeinference.github.io/). A hub of Free Energy Principle papers and resources.
 
 ## Contributing
