@@ -19,8 +19,10 @@ High-quality, durable resources that help someone **learn** or **build** with ac
 ## Format
 
 ```markdown
-- Author (Year). *Title*. One-line reason it matters. [arXiv](URL)
+- [ ] Author (Year). *Title*. One-line reason it matters. [arXiv](URL)
 ```
+
+Entries in the reading sections begin with a task-list checkbox (`- [ ]`) that serves as a "Read?" column. New entries should be added unread (`- [ ]`).
 
 ## How to submit
 
